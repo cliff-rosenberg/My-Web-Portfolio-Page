@@ -45,7 +45,7 @@ body, html {
     background-size: cover;
   }
   
-  /* Formats the text over the  */
+  /* Formats the text over the image*/
 .hero-text {
     position: absolute;
     top: 50%;
@@ -54,6 +54,7 @@ body, html {
     color: white;
   }
 
+  /* this is the start of the "Projects" section */
 .work-examples-bar {
     background: #2D31FA;
     overflow: hidden;
@@ -152,6 +153,7 @@ body, html {
     grid-row-end: 9;
   }
 
+/* the "About Me" bar starts here */
 .about-me-bar {
     background: #2D31FA;
     overflow: hidden;
@@ -168,7 +170,8 @@ body, html {
     padding: 5px;
     outline: black solid 5px;
   }
-
+  
+/* the "Footer" area with contact info is here */
 .footer-contact {    
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(74,92,120,1) 50%, rgba(194,192,192,1) 100%);
