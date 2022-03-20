@@ -1,0 +1,181 @@
+body {
+  background-color: #DFF6FF;
+  font-family: Monaco, Candara, Avenir, Arial, sans-serif;
+  }
+
+body, html {
+    height: 100%;
+  }
+
+.navbar-top {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(74,92,120,1) 50%, rgba(194,192,192,1) 100%);
+    overflow: hidden;
+  }
+
+ .navbar-top a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+.navbar-top a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+.navbar-top a.active {
+    background-color: #c2c0c0;
+    color: white;
+  }
+
+  /* Loads the "Hero" image here */
+.image-hero {
+    display: block;
+    /* add a linear-gradient to give a darkened background effect to the image, gives contrast to text*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/cliff_lg.jpg");
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Formats the text over the  */
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+.work-examples-bar {
+  background: #2D31FA;
+  overflow: hidden;
+}
+
+.work-examples-bar h2 {
+  color: white;
+  padding: 0% 2%;
+ }
+
+.projects-container {
+  width: 95%;
+  margin: 1rem auto; 
+}
+  
+.proj-gallery {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(8, 5vw);
+  grid-gap: .5rem;
+  align-content: center;
+  }
+  
+.gallery-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+  
+.gallery-item-top-1 {
+  position: relative;
+  grid-column-start: 1;
+  grid-column-end: 10;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  }
+
+.proj-name-top {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.2vw;
+  font-weight: 900;
+  text-shadow: 2px 2px 5px black;
+}
+.proj-name-top a:link {
+  color: white;
+}
+.proj-name-top a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.proj-name {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.2vw;
+  font-weight: 900;
+  text-shadow: 2px 2px 5px black;
+}
+.proj-name a:link {
+  color: white;
+}
+.proj-name a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.gallery-item-2 {
+  position: relative;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 9;
+}
+  
+.gallery-item-3 {
+  position: relative;
+  grid-column-start: 4;
+  grid-column-end: 7;
+  grid-row-start: 4;
+  grid-row-end: 9;
+}
+  
+.gallery-item-4 {
+  position: relative;
+  grid-column-start: 7;
+  grid-column-end: 10;
+  grid-row-start: 4;
+  grid-row-end: 9;
+}
+
+.about-me-bar {
+  background: #2D31FA;
+  overflow: hidden;
+  }
+
+.about-me-bar h2 {
+  color: white;
+  padding: 0% 2%;
+  }
+
+.about-me-text {
+    display: flex;
+    color: black;
+    padding: 5px;
+    outline: black solid 5px;
+}
+
+.footer-contact {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(74,92,120,1) 50%, rgba(194,192,192,1) 100%);
+  overflow: hidden;
+}
+
+.footer-contact h2 {
+  padding: 0% 1%;
+  color: white;
+}
