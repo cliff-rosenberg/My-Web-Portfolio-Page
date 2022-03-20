@@ -55,111 +55,111 @@ body, html {
   }
 
 .work-examples-bar {
-  background: #2D31FA;
-  overflow: hidden;
-}
+    background: #2D31FA;
+    overflow: hidden;
+  }
 
 .work-examples-bar h2 {
-  color: white;
-  padding: 0% 2%;
- }
+    color: white;
+    padding: 0% 2%;
+  }
 
 .projects-container {
-  width: 95%;
-  margin: 1rem auto; 
-}
+    width: 95%;
+    margin: 1rem auto; 
+  }
   
 .proj-gallery {
-  display: grid;
-  grid-template-columns: repeat(9, 1fr);
-  grid-template-rows: repeat(8, 5vw);
-  grid-gap: .5rem;
-  align-content: center;
+   display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: .5rem;
+    align-content: center;
   }
   
 .gallery-img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
   
 .gallery-item-top-1 {
-  position: relative;
-  grid-column-start: 1;
-  grid-column-end: 10;
-  grid-row-start: 1;
-  grid-row-end: 4;
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end: 4;
   }
 
 .proj-name-top {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 1.2vw;
-  font-weight: 900;
-  text-shadow: 2px 2px 5px black;
-}
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.2vw;
+    font-weight: 900;
+    text-shadow: 2px 2px 5px black;
+  }
 .proj-name-top a:link {
-  color: white;
-}
+    color: white;
+  }
 .proj-name-top a:visited {
-  color: white;
-  text-decoration: none;
-}
+    color: white;
+    text-decoration: none;
+  }
 
 .proj-name {
-  position: absolute;
-  top: 5%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 1.2vw;
-  font-weight: 900;
-  text-shadow: 2px 2px 5px black;
-}
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.2vw;
+    font-weight: 900;
+    text-shadow: 2px 2px 5px black;
+  }
 .proj-name a:link {
-  color: white;
-}
+    color: white;
+  }
 .proj-name a:visited {
-  color: white;
-  text-decoration: none;
-}
+    color: white;
+    text-decoration: none;
+  }
 
 .gallery-item-2 {
-  position: relative;
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 4;
-  grid-row-end: 9;
-}
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 9;
+  }
   
 .gallery-item-3 {
-  position: relative;
-  grid-column-start: 4;
-  grid-column-end: 7;
-  grid-row-start: 4;
-  grid-row-end: 9;
-}
+    position: relative;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 9;
+  }
   
 .gallery-item-4 {
-  position: relative;
-  grid-column-start: 7;
-  grid-column-end: 10;
-  grid-row-start: 4;
-  grid-row-end: 9;
-}
+    position: relative;
+    grid-column-start: 7;
+    grid-column-end: 10;
+    grid-row-start: 4;
+    grid-row-end: 9;
+  }
 
 .about-me-bar {
-  background: #2D31FA;
-  overflow: hidden;
+    background: #2D31FA;
+    overflow: hidden;
   }
 
 .about-me-bar h2 {
-  color: white;
-  padding: 0% 2%;
+    color: white;
+    padding: 0% 2%;
   }
 
 .about-me-text {
@@ -167,15 +167,27 @@ body, html {
     color: black;
     padding: 5px;
     outline: black solid 5px;
-}
+  }
 
-.footer-contact {
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(74,92,120,1) 50%, rgba(194,192,192,1) 100%);
-  overflow: hidden;
-}
-
+.footer-contact {    
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(74,92,120,1) 50%, rgba(194,192,192,1) 100%);
+    overflow: hidden;
+    padding-top: 10px;
+  }
 .footer-contact h2 {
-  padding: 0% 1%;
-  color: white;
-}
+    color: white;
+  }
+
+.footer-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-basis: auto;
+  }
+.box1 {
+    width: 275px;
+  }
+.box2 {
+    width: 150px;
+  }
