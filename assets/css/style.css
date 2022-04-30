@@ -3,6 +3,10 @@ body {
   font-family: Monaco, Candara, Avenir, Arial, sans-serif;
   }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body, html {
     height: 100%;
   }
