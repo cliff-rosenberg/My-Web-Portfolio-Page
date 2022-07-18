@@ -8,7 +8,7 @@ This is a one-page "portfolio" site thats gives people examples of a few project
 
 Theres no installation needed, I have the page hosted here at Github.
 
-Link: [https://cliff-rosenberg.github.io/My-Web-Portfolio-Page/)](https://cliff-rosenberg.github.io/My-Web-Portfolio-Page/)
+Link: [https://cliff-rosenberg.github.io/My-Web-Portfolio-Page/](https://cliff-rosenberg.github.io/My-Web-Portfolio-Page/)
 
 ## License
 
